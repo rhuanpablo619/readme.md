@@ -1,30 +1,33 @@
-# readme.md
-<div align="center">
 💼 Currículo Interativo — Rhuan Pablo
 
 🧠 Projeto completo que une interface, servidor e banco de dados em uma aplicação CRUD funcional.
 
 🔰 Status do Projeto
 
+✅ Concluído e funcional
+📦 Pronto para uso local e publicação gratuita online.
 
+🔧 Transformações Principais
 
+Estrutura modular e organizada
 
+Interface simples e funcional
 
+Integração completa entre as camadas
 
-🔧 Tecnologias Principais
+Banco de dados local com suporte a CRUD
 
-
-
-
-
-
-
-
-</div>
 🧩 Visão Geral
 
 O projeto apresenta um currículo interativo, que pode ser criado, editado, visualizado e excluído por meio de uma interface gráfica simples e funcional.
-Ele foi desenvolvido com foco em organização de código, separação de camadas e integração completa entre servidor e banco de dados local.
+
+Ele foi desenvolvido com foco em:
+
+Organização e clareza de código
+
+Separação das camadas da aplicação
+
+Integração completa entre servidor e banco de dados local
 
 🧱 Estrutura do Projeto
 curriculo-interativo-rhuan/
@@ -32,7 +35,7 @@ curriculo-interativo-rhuan/
 │   ├── server.js
 │   ├── models/
 │   ├── controllers/
-│   ├── routes/
+│   ├── rotas/
 │   ├── seed.js
 │   └── package.json
 │
@@ -70,7 +73,7 @@ email	Endereço eletrônico
 telefone	Contato telefônico
 nascimento	Data de nascimento
 cidade	Cidade e estado
-estadoCivil	Estado civil
+estado civil	Estado civil
 formacao	Formação acadêmica
 experiencias	Histórico profissional
 informacoesComplementares	Habilidades e observações
@@ -87,7 +90,7 @@ npm run seed   # Cria e preenche o banco
 npm start      # Inicia o servidor local
 
 
-O servidor será iniciado (porta padrão: 3001).
+O servidor será iniciado na porta 3001 (por padrão).
 
 3️⃣ Iniciar a interface
 cd ../frontend
@@ -131,19 +134,23 @@ Botões de edição e exclusão em cada item da lista.
 ⚠️ Observações Importantes
 
 ⚙️ O banco local é ideal para testes e apresentações.
-Para ambientes permanentes, é recomendada a integração com um serviço de banco remoto.
+Para ambientes permanentes, recomenda-se o uso de banco de dados remoto.
 
-🔁 Em ambientes gratuitos, os dados podem ser recriados a cada atualização do projeto.
+🔁 Em ambientes gratuitos, os dados podem ser recriados a cada nova atualização.
 
-🌍 As variáveis de ambiente controlam o endereço da interface e do servidor para garantir a comunicação correta.
+🌍 As variáveis de ambiente controlam o endereço da interface e do servidor, garantindo comunicação correta.
 
 🚀 Melhorias Futuras
 
-🧠 Implementar sistema de autenticação e login.
-📸 Adicionar campo de foto de perfil.
-🔍 Criar busca e filtros de registros.
-📄 Modo de visualização pública (sem edição).
-💾 Migrar o banco local para um ambiente remoto.
+🧠 Implementar sistema de autenticação e login
+
+📸 Adicionar campo de foto de perfil
+
+🔍 Criar busca e filtros de registros
+
+📄 Modo de visualização pública (sem edição)
+
+💾 Migrar o banco local para um ambiente remoto
 
 👤 Autor
 
@@ -156,11 +163,7 @@ Rhuan Pablo Ferreira Cordeiro
 📜 Este projeto é livre para uso acadêmico e de portfólio.
 Pode ser copiado e adaptado para estudos e demonstrações.
 
-<div align="center">
 ✅ Projeto Finalizado e Funcional
 
 Pronto para uso local e publicação gratuita online.
-
 ✨ Aplicação que integra interface, servidor e banco de dados em um sistema completo e intuitivo.
-
-</div>
